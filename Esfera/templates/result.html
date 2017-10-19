@@ -1,0 +1,20 @@
+{%extends 'base.html' %}
+{%block body%}
+<h2> {{the_title}}</h2>
+
+<p>The value of R (radio):</p>
+<table>
+    <tr>
+        <td>R: </td>
+         <td>{{the_r}} </td>
+    </tr>
+    <tr>
+        <td colspan="2"> 4/3 pi*R**3 </td>
+    </tr>
+        <tr>
+        <td > v: </td>
+             <td > {{the_result}} </td>
+    </tr>
+</table>
+<p><a href="/entry"> Go back</a>  </p>
+{% endblock %}

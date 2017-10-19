@@ -1,0 +1,6 @@
+esfera.py
+setup.py
+esfera.egg-info/PKG-INFO
+esfera.egg-info/SOURCES.txt
+esfera.egg-info/dependency_links.txt
+esfera.egg-info/top_level.txt
